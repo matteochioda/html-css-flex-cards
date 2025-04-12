@@ -1,0 +1,112 @@
+/* Reset */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+
+/* Debug */
+
+.debug .container {
+    border: 1px solid black;
+}
+
+
+/* Utility */
+
+.w-33 {
+    width: 33.33%;
+}
+
+
+/* Container */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* Header */
+
+h1 {
+    text-align: center;
+    padding: 30px 0px;
+    color: rgb(211, 67, 112);
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+}
+
+p {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+
+/* Row */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+    row-gap: 40px;
+}
+
+.row > * {
+    padding: 0px 15px;
+}
+
+
+/* Card */
+
+.card {
+    border-radius: 10px;
+    display: flex;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 10px grey;
+}
+
+
+/* Profile Image */
+
+img {
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+/* Profile Info */
+
+.information {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.occupation {
+    font-size: 14px;
+}
+
+a {
+    font-size: 14px;
+    color: rgb(130, 206, 238);
+    text-decoration: none;
+}
